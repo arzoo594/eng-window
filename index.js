@@ -15,7 +15,7 @@ const displayLevelWord = (levelWords) => {
   levelWords.forEach((levelWord) => {
     const cardWord = document.createElement("div");
     cardWord.innerHTML = `
-    <div class="bg-gray-200 p-4">
+    <div class="">
     <div class="bg-white p-4 m-2 text-center rounded-lg shadow-lg">
           <h1 class="mt-4">${levelWord.word}</h1>
           <p class="mt-4"><span>Meaning </span>/ <span>Pronuunciation</span></p>
